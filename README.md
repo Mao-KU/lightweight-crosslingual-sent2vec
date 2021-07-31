@@ -37,3 +37,5 @@ bash start.sh 0 UGT+ALIGN+SIM ckpt 0 fr
 ```
 can be implemented for now.
 
+## Others
+We will add more details soon.
