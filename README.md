@@ -12,7 +12,7 @@ Please set up the specific training data path in "config.py" before implementing
 
 ## Usage:
 ```
-bash start.sh 0 UGT ckpt 0 fr
+bash start.sh 0 UGT ckpt false fr
 ```
 - Arg1: GPU card number
 - Arg2: Training tasks: use "UGT" or "UGT+ALIGN+SIM"
