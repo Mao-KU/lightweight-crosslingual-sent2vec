@@ -18,7 +18,7 @@ bash start.sh 0 UGT ckpt false fr
 - Arg2: Training tasks: use "UGT" or "UGT+ALIGN+SIM"
 - Arg3: path for saving checkpoints and log files
 - Arg4: "false" denotes training from scratch; "true" denotes resuming training from the recent checkpoint
-- Arg5: another language (default french)
+- Arg5: another language (default: french)
 
 ## Others
 We will add more details soon.
