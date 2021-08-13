@@ -17,7 +17,7 @@ bash start.sh 0 UGT ckpt 0 fr
 - Arg1: GPU card number
 - Arg2: Training tasks: use "UGT" or "UGT+ALIGN+SIM"
 - Arg3: path for saving checkpoints and log files
-- Arg4: "0" denotes training from scratch; "True" denotes resuming training from the recent checkpoint
+- Arg4: "false" denotes training from scratch; "true" denotes resuming training from the recent checkpoint
 - Arg5: another language (default french)
 
 ## Others
