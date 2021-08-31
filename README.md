@@ -12,6 +12,7 @@ Please set up the specific training data path in "config.py" before implementing
 
 ## Usage:
 ```
+mkdir ckpt
 bash start.sh 0 UGT ckpt false fr
 ```
 - $1: GPU card number
