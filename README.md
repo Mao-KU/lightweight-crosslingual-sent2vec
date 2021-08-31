@@ -14,11 +14,11 @@ Please set up the specific training data path in "config.py" before implementing
 ```
 bash start.sh 0 UGT ckpt false fr
 ```
-- Arg1: GPU card number
-- Arg2: Training tasks: use "UGT" or "UGT+ALIGN+SIM"
-- Arg3: path for saving checkpoints and log files
-- Arg4: "false" denotes training from scratch; "true" denotes resuming training from the recent checkpoint
-- Arg5: another language (default: french)
+- $1: GPU card number
+- $2: Training tasks: use "UGT" or "UGT+ALIGN+SIM"
+- $3: path for saving checkpoints and log files
+- $4: "false" denotes training from scratch; "true" denotes resuming training from the recent checkpoint
+- $5: another language (default: french)
 
 ## Others
 We will add more details soon.
