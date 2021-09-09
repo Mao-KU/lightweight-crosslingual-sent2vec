@@ -1,4 +1,4 @@
-# Lightweight Cross-lingual Sentence Representation Learning
+# Lightweight Cross-lingual Sentence Representation Learning (Mao et al., ACL 2021)
 Read this before implementing the lightweight crosslingual sentence embedding model training.
 
 ## Prerequisites:
