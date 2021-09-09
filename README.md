@@ -7,7 +7,7 @@ Read this before implementing the lightweight crosslingual sentence embedding mo
 
 ## Dataset and Preprocessing:
 We uploaded the cleaned and preprocessed dataset of English-French with the size of 300,000 parallel sentences due to file size limitation.
-Find the datasets in the submitted "data.zip" file.
+Find the training data samples in "data.zip".
 Please set up the specific training data path in "config.py" before implementing the model training.
 
 ## Usage:
