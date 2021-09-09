@@ -17,7 +17,7 @@ bash start.sh 0 UGT ckpt false fr
 - $1: GPU card number
 - $2: Training tasks: use "UGT" or "UGT+ALIGN+SIM"
 - $3: path for saving checkpoints and log files
-- $4: "false" denotes training from scratch; "true" denotes resuming training from the recent checkpoint
+- $4: "false" denotes training from scratch; "true" denotes resuming training from checkpoint, which can be set up in config.py
 - $5: another language (default: french)
 
 ## Others
