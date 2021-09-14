@@ -1,6 +1,7 @@
 readonly var=$4
 la=$5
 
+unzip data.zip
 mkdir -p $3
 if "${var}"; then
 	CUDA_VISIBLE_DEVICES=$1 nohup python main.py -m $2 -r True -la $la >> $3/$2.out 2>&1 &
