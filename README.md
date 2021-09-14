@@ -1,5 +1,5 @@
 # Lightweight Cross-lingual Sentence Representation Learning (Mao et al., ACL 2021)
-Code for [*paper*](https://aclanthology.org/2021.acl-long.226/)
+Code for [paper](https://aclanthology.org/2021.acl-long.226/)
 
 ## Prerequisites:
 - Pytorch 1.7.1
