@@ -1,5 +1,5 @@
 # Lightweight Cross-lingual Sentence Representation Learning (Mao et al., ACL 2021)
-Read this before implementing the lightweight crosslingual sentence embedding model training.
+Code for [*paper*](https://aclanthology.org/2021.acl-long.226/)
 
 ## Prerequisites:
 - Pytorch 1.7.1
