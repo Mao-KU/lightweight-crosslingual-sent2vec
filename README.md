@@ -22,6 +22,11 @@ bash start.sh 0 UGT ckpt false fr
 - $4: "false" denotes training from scratch; "true" denotes resuming training from checkpoint, which can be set up in "config.py"
 - $5: another language (default: french)
 
+To monitor the training, use
+```
+tail -f ckpt/UGT.out
+```
+
 ## Others
 We will add more details soon.
 
