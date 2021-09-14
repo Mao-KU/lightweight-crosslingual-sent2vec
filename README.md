@@ -4,6 +4,9 @@ Read this before implementing the lightweight crosslingual sentence embedding mo
 ## Prerequisites:
 - Pytorch 1.7.1
 - SentencePiece
+```
+pip install -r requirements.txt
+```
 
 ## Dataset and Preprocessing:
 We uploaded the cleaned and preprocessed dataset of English-French with the size of 300,000 parallel sentences due to file size limitation.
