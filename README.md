@@ -7,8 +7,9 @@ conda env create --file myenv.yaml
 ```
 
 ## Dataset and Preprocessing:
-We uploaded the cleaned and preprocessed dataset of English-French with the size of 300,000 parallel sentences due to file size limitation.
+We uploaded the cleaned and preprocessed dataset of English-French with the size of 300,000 parallel sentences as examples.
 Find the training data samples in "data.zip".
+For the whole ParaCrawl dataset, please download them from [ParaCrawl](https://opus.nlpl.eu/ParaCrawl-v5.php)
 
 ## Usage:
 ```
