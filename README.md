@@ -2,10 +2,8 @@
 Code for [paper](https://aclanthology.org/2021.acl-long.226.pdf)
 
 ## Prerequisites:
-- Pytorch 1.7.1
-- SentencePiece
 ```
-pip install -r requirements.txt
+conda env create --file myenv.yaml
 ```
 
 ## Dataset and Preprocessing:
