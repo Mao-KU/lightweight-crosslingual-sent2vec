@@ -1,4 +1,4 @@
-name: maki
+name: myenv
 channels:
   - pytorch
   - conda-forge
