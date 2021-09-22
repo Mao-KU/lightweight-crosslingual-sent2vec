@@ -7,7 +7,7 @@ class DefaultConfigs:
     lg2 = 'fr'
     train_data_path = "paracrawl/enfr.test" # find this in the "data.zip" file
     # due to size limitation, we only uploaded first 300,000 lines of English-French for your checking
-    validation_size = 1000 # for the training described in the paper, we used 10000 for validation. Here we use 100 sentences for test.
+    validation_size = 1000 # for the training described in the paper, we used 10000 for validation. Here we use 1000 sentences for test.
     ############################################
 
     output_dir = "ckpt"
