@@ -73,4 +73,4 @@ dependencies:
     - sklearn==0.0
     - thop==0.0.31-2005241907
     - threadpoolctl==2.1.0
-prefix: /home/zhuoyuanmao/miniconda3/envs/maki
+prefix: /home/zhuoyuanmao/miniconda3/envs/myenv
