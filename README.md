@@ -30,7 +30,7 @@ tail -f ckpt/UGT.out
 We will add more details soon.
 
 ## Reference
-[1] Zhuoyuan Mao, Prakhar Gupta, Chenhui Chu, Martin Jaggi, Sadao Kurohashi, [*Lightweight Cross-Lingual Sentence Representation Learning*](https://aclanthology.org/2021.acl-long.226/)
+[1] Zhuoyuan Mao, Prakhar Gupta, Chenhui Chu, Martin Jaggi, Sadao Kurohashi. 2021. [*Lightweight Cross-Lingual Sentence Representation Learning*](https://aclanthology.org/2021.acl-long.226/). ACL 2021.
 
 ```
 @inproceedings{mao-etal-2021-lightweight,
