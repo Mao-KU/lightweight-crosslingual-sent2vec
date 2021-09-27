@@ -1,4 +1,4 @@
-# Lightweight Cross-lingual Sentence Representation Learning (Mao et al., ACL 2021)
+# Lightweight Cross-lingual Sentence Representation Learning
 Code for [paper](https://aclanthology.org/2021.acl-long.226.pdf)
 
 ## Prerequisites:
