@@ -106,7 +106,7 @@ def main():
     dataloader = DataProvider(config, True, 'train')
     train_data, validation_data = dataloader.data_loader, dataloader.vali_loader
     num_train_optimization_steps = int(dataloader.dataset.num_samples / config.train_batch_size) * config.num_train_epochs
-    lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[config.warmup_epochs], gamma=0.1)
+    lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[config.lr_decay_from], gamma=0.1)
     warmup_scheduler = warmup.UntunedLinearWarmup(optimizer)
     warmup_scheduler.last_step = -1     
     global_step = 0
