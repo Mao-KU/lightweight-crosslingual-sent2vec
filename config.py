@@ -35,9 +35,9 @@ class DefaultConfigs:
     
     weight_decay = 1e-5
     learning_rate = 1e-3
-    warmup_epochs = 3
+    lr_decay_from = 3 # lr decay from which epoch
     if lg2 == 'it':
-        warmup_epochs = 6
+        lr_decay_from = 6
     num_train_epochs = 12
     if lg2 == 'it':
         num_train_epochs = 30
