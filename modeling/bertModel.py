@@ -77,9 +77,9 @@ class PositionalEncoding(nn.Module):
         return self.position_embeddings(position_ids)
     
     
-class sentEmbedding(nn.Module):
+class SentEmbedding(nn.Module):
     def __init__(self, vocab_size, embedding_size, max_seq_len,dropout=0.0,padding_idx=0):
-        super(sentEmbedding, self).__init__()
+        super(SentEmbedding, self).__init__()
         self.word_embedding = WordEmbedding(vocab_size, embedding_size, padding_idx)
         self.position_embedding = PositionalEncoding(embedding_size, max_seq_len)
         self.layer_norm = BertLayerNorm(embedding_size, eps=1e-12)
@@ -259,7 +259,7 @@ class BertPooler(nn.Module):
 class BertModel(nn.Module):
     def __init__(self, vocab_size, config):
         super(BertModel, self).__init__()
-        self.embedding = sentEmbedding(vocab_size, \
+        self.embedding = SentEmbedding(vocab_size, \
                                        config.token_dim, \
                                        config.max_seq_len,\
                                        config.emb_dropout)
